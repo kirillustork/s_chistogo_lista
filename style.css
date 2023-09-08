@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    box-sizing: border-box;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.content-section_theme_dark {
+    color: #F5F5F5;
+    background-color: #131313;
+}
+
+.content-section_theme_bright {
+    color: #131313;
+    background-color: #FEE42A;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 20px;
+}
+.header__logo {
+    display: block;
+    width: 78px;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    font-size: 16px;
+    line-height: 19.2px; 
+}
+
+/* Убираем синий цвет ссылок */
+.header__menu-link {
+    color: inherit;
+}
+
+/* Убираем подчеркивание Главной */
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+}
+
+.cover {    
+    padding: 7px 20px 30px 20px;
+    background-image: url(/img/cover.svg);
+    background-position: right center ;
+    background-size: 95% auto; 
+    background-repeat: no-repeat;
+}
+
+.cover__title {
+    color: #FFF;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400; /* По умолчанию текст у h1 ставится bold */
+    font-size: 72px;
+    line-height: 100%; 
+}
+
+.accent_span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro {
+    padding: 0px 20px 38px;
+}
+
+.intro__heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.intro__title {
+    color:#CCC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+}
+
+.intro__date {
+    white-space: nowrap;
+    color:#CCC;
+    font-size: 16px;
+    line-height: 120%; 
+}
+
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 16px;
+    line-height: 21.6px; 
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+
+.content-section__subtitle {
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%; 
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    line-height: 27px;
+    margin: 32px 0;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 0 0 16px;
+}
+
+.content-section__list-item {
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+}
+
+.how-to {  
+    padding: 40px 20px 60px;
+}
+
+.cards_list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+}
+
+.card_theme_dark {
+    color: #F5F5F5;
+    background-color: #343434;
+}
+
+.card_theme_bright {
+    color: #131313;
+    background-color: #FEE42A;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.card_author {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card_author-photo{
+    width: 100px;
+    height: 100px;
+}
+
+.card_author-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 135%; 
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card_title {
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; 
+}
+
+.card_text {
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #FEE42A;
+}
+
+.footer__copy {
+    font-size: 16px;
+    line-height: 135%; 
+}
+
+.footer__links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: inherit;
+}
+
